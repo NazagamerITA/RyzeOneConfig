@@ -55,10 +55,10 @@ public class SideBar {
         add(new BasicButton(width, SIZE_36, "Credits", SVGs.COPYRIGHT_FILL, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY));
 
         add(new BasicButton(width, SIZE_36, "Mods", SVGs.FADERS_HORIZONTAL_BOLD, null, ALIGNMENT_LEFT, ColorPalette.PRIMARY));
-        add(new BasicButton(width, SIZE_36, "Profiles", SVGs.USERS_02, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY));
-
-        add(new BasicButton(width, SIZE_36, "Themes", SVGs.BRUSH, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY));
         add(new BasicButton(width, SIZE_36, "Preferences", SVGs.SETTINGS_02, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY));
+
+        add(new BasicButton(width, SIZE_36, "Cosmetics", SVGs.USERS_02, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY));
+        add(new BasicButton(width, SIZE_36, "Capes", SVGs.BRUSH, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY));
     }};
     private final BasicButton hudButton = new BasicButton(192, SIZE_36, "Edit HUD", SVGs.LAYOUT_ALT, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY);
     private final BasicButton closeButton = new BasicButton(192, SIZE_36, "Close", SVGs.X_CLOSE, null, ALIGNMENT_LEFT, ColorPalette.TERTIARY_DESTRUCTIVE);
@@ -71,7 +71,7 @@ public class SideBar {
     public SideBar() {
         buttons.get(0).setClickAction(new CreditsPage());
         buttons.get(1).setClickAction(new ModsPage());
-        buttons.get(4).setClickAction(new ModConfigPage(Preferences.getInstance().mod.defaultPage, true));
+        buttons.get(2).setClickAction(new ModConfigPage(Preferences.getInstance().mod.defaultPage, true));
         hudButton.setClickAction(() -> GuiUtils.displayScreen(new HudGui()));
         closeButton.setClickAction(GuiUtils::closeScreen);
         for (BasicButton button : buttons) {

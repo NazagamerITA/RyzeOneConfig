@@ -53,8 +53,8 @@ public class CreditsPage extends Page {
         nanoVGHelper.drawText(vg, " - xtrm - Multiversion support, GUI Frontend", x + 20, y + 343, -1, 12, Fonts.REGULAR);
         nanoVGHelper.drawText(vg, " - MoonTidez - OG Team - Designer", x + 20, y + 358, -1, 12, Fonts.REGULAR);
 
-        nanoVGHelper.drawText(vg, "Libraries", x + 20, y + 441, -1, 24, Fonts.SEMIBOLD);
-        nanoVGHelper.drawText(vg, " - LWJGLTwoPointFive (DJTheRedstoner) - LWJGL2 function provider", x + 20, y + 443, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, "Libraries", x + 20, y + 426, -1, 24, Fonts.SEMIBOLD);
+        nanoVGHelper.drawText(vg, " - LWJGLTwoPointFive (DJTheRedstoner) - LWJGL2 function provider", x + 20, y + 538, -1, 12, Fonts.REGULAR);
         nanoVGHelper.drawText(vg, " - #getResourceAsStream (SpinyOwl) - IO Utility and shadow", x + 20, y + 448, -1, 12, Fonts.REGULAR);
         nanoVGHelper.drawText(vg, " - NanoVG (memononen) - NanoVG Library", x + 20, y + 463, -1, 12, Fonts.REGULAR);
         nanoVGHelper.drawText(vg, " - UniversalCraft (Essential team) - Multiversioning bindings", x + 20, y + 478, -1, 12, Fonts.REGULAR);
