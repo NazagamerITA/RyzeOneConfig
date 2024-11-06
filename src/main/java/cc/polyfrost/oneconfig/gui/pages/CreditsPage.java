@@ -41,24 +41,26 @@ public class CreditsPage extends Page {
         final NanoVGHelper nanoVGHelper = NanoVGHelper.INSTANCE;
         nanoVGHelper.drawSvg(vg, SVGs.ONECONFIG_FULL_DARK, x + 15f, y + 20f, 474, 102);
         y -= 32;
+        nanoVGHelper.drawText(vg, " Ryze Client Development Team", x + 20, y + 180, -1, 24, Fonts.SEMIBOLD);
+        nanoVGHelper.drawText(vg, " - Naza - Client Founder - Designer, Gradle, Java, Launcher Frontend & Backend", x + 20, y + 205, -1, 12, Fonts.REGULAR);
 
-        nanoVGHelper.drawText(vg, "Development Team", x + 20, y + 180, -1, 24, Fonts.SEMIBOLD);
-        nanoVGHelper.drawText(vg, " - Wyvest - OG Team - Gradle, NanoVGHelper, VCAL, Utilities, GUI Frontend", x + 20, y + 205, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - Caledonian - Designer", x + 20, y + 220, -1, 12, Fonts.REGULAR);        // +15/line
-        nanoVGHelper.drawText(vg, " - nextdaydelivery - OG Team - GUI Frontend, NanoVGHelper, Utilities", x + 20, y + 235, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - Pauline - Utilities", x + 20, y + 250, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - DeDiamondPro - OG Team -  Config Backend, GUI Frontend, HUD", x + 20, y + 295, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - xtrm - Multiversion support, GUI Frontend", x + 20, y + 265, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - MoonTidez - OG Team - Designer", x + 20, y + 280, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " OneConfig Development Team", x + 20, y + 258, -1, 24, Fonts.SEMIBOLD);
+        nanoVGHelper.drawText(vg, " - Wyvest - OG Team - Gradle, NanoVGHelper, VCAL, Utilities, GUI Frontend", x + 20, y + 283, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - Caledonian - Designer", x + 20, y + 298, -1, 12, Fonts.REGULAR);        // +15/line
+        nanoVGHelper.drawText(vg, " - nextdaydelivery - OG Team - GUI Frontend, NanoVGHelper, Utilities", x + 20, y + 313, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - Pauline - Utilities", x + 20, y + 328, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - DeDiamondPro - OG Team -  Config Backend, GUI Frontend, HUD", x + 20, y + 373, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - xtrm - Multiversion support, GUI Frontend", x + 20, y + 343, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - MoonTidez - OG Team - Designer", x + 20, y + 358, -1, 12, Fonts.REGULAR);
 
-        nanoVGHelper.drawText(vg, "Libraries", x + 20, y + 333, -1, 24, Fonts.SEMIBOLD);
-        nanoVGHelper.drawText(vg, " - LWJGLTwoPointFive (DJTheRedstoner) - LWJGL2 function provider", x + 20, y + 355, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - #getResourceAsStream (SpinyOwl) - IO Utility and shadow", x + 20, y + 370, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - NanoVG (memononen) - NanoVG Library", x + 20, y + 385, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - UniversalCraft (Essential team) - Multiversioning bindings", x + 20, y + 400, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - https://easings.net/ - Easing functions", x + 20, y + 415, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - Seraph (Scherso) - Locraw and Multithreading utilities", x + 20, y + 430, -1, 12, Fonts.REGULAR);
-        nanoVGHelper.drawText(vg, " - Deencapsulation (xDark) - Java 9+ utilities", x + 20, y + 445, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, "Libraries", x + 20, y + 441, -1, 24, Fonts.SEMIBOLD);
+        nanoVGHelper.drawText(vg, " - LWJGLTwoPointFive (DJTheRedstoner) - LWJGL2 function provider", x + 20, y + 443, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - #getResourceAsStream (SpinyOwl) - IO Utility and shadow", x + 20, y + 448, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - NanoVG (memononen) - NanoVG Library", x + 20, y + 463, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - UniversalCraft (Essential team) - Multiversioning bindings", x + 20, y + 478, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - https://easings.net/ - Easing functions", x + 20, y + 493, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - Seraph (Scherso) - Locraw and Multithreading utilities", x + 20, y + 508, -1, 12, Fonts.REGULAR);
+        nanoVGHelper.drawText(vg, " - Deencapsulation (xDark) - Java 9+ utilities", x + 20, y + 523, -1, 12, Fonts.REGULAR);
     }
 
     @Override
