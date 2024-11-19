@@ -33,6 +33,7 @@ import cc.polyfrost.oneconfig.gui.elements.BasicButton;
 import cc.polyfrost.oneconfig.gui.pages.CreditsPage;
 import cc.polyfrost.oneconfig.gui.pages.ModConfigPage;
 import cc.polyfrost.oneconfig.gui.pages.ModsPage;
+import cc.polyfrost.oneconfig.gui.pages.OpenLinkAction;
 import cc.polyfrost.oneconfig.internal.assets.Colors;
 import cc.polyfrost.oneconfig.internal.assets.SVGs;
 import cc.polyfrost.oneconfig.internal.config.Preferences;
@@ -72,6 +73,8 @@ public class SideBar {
         buttons.get(0).setClickAction(new CreditsPage());
         buttons.get(1).setClickAction(new ModsPage());
         buttons.get(2).setClickAction(new ModConfigPage(Preferences.getInstance().mod.defaultPage, true));
+        buttons.get(3).setClickAction(new OpenLinkAction("https://cosmetica.cc/manage"));
+        buttons.get(4).setClickAction(new OpenLinkAction("https://minecraftcapes.net/upload-cape"));
         hudButton.setClickAction(() -> GuiUtils.displayScreen(new HudGui()));
         closeButton.setClickAction(GuiUtils::closeScreen);
         for (BasicButton button : buttons) {

@@ -1053,6 +1053,11 @@ public class cc/polyfrost/oneconfig/gui/pages/ModsPage : cc/polyfrost/oneconfig/
 	public fun reloadMods ()V
 }
 
+public class cc/polyfrost/oneconfig/gui/pages/OpenLinkAction : java/lang/Runnable {
+	public fun <init> (Ljava/lang/String;)V
+	public fun run ()V
+}
+
 public abstract class cc/polyfrost/oneconfig/gui/pages/Page {
 	public final field parents Ljava/util/ArrayList;
 	protected field scroll F
